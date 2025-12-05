@@ -10,7 +10,7 @@ if (menuToggle && navLinks) {
   });
 }
 
-// Close mobile menu after clicking a link (better UX on small screens)
+// Close mobile menu after clicking a link
 const navLinkEls = document.querySelectorAll('.nav-links a');
 navLinkEls.forEach(link => {
   link.addEventListener('click', () => {
