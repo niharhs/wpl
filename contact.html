@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Nihar Arya</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">NIHAR ARYA</div>
+        <button class="menu-toggle" id="menuToggle">Menu</button>
+        <div class="nav-links" id="navLinks">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="work.html">Work</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">Let’s talk about your next poster or visual project.</p>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <p>
+              Share your idea, timeline, and any references you like, and I’ll get back with
+              concepts and next steps.
+            </p>
+            <br />
+            <p><strong>Email:</strong> your.email@example.com</p>
+            <p><strong>Instagram / Behance / Dribbble:</strong> @yourhandle</p>
+            <p><strong>Location:</strong> Your City, Country</p>
+          </div>
+
+          <div class="contact-card">
+            <form>
+              <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Your name" required />
+              </div>
+
+              <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="you@example.com" required />
+              </div>
+
+              <div>
+                <label for="project">Project details</label>
+                <textarea id="project" placeholder="Tell me about your project, style, and timeline"></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Nihar Arya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
